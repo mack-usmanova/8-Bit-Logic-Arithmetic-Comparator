@@ -22,27 +22,6 @@ Inputs come from switches (Pmod/DIP-style wiring), and outputs light LEDs. We ve
 
 ---
 
-## Quick repo layout (suggested)
-
-```
-.
-├─ src/
-│  └─ SN74AS885.vhd
-├─ constraints/
-│  └─ lab4.xdc
-├─ sim/
-│  └─ lab4_forces.tcl
-├─ assets/
-│  ├─ schematic.png
-│  ├─ behavioral_sim.png
-│  ├─ post_route_delay_and_summary.png
-│  ├─ oscilloscope_delay.png
-│  ├─ fpga_photos_1.png
-│  └─ fpga_photos_2.png
-└─ report/
-   └─ ECE_4525 Lab 4.pdf
-```
-
 ---
 
 ## How the comparator behaves
